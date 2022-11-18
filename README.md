@@ -15,7 +15,17 @@
 
 # Resumen
 
-*El siguiente cuaderno tiene como objetivo, analizar los resultados obtenidos de la ejecución de tres ejercicios diferentes __"heat equation, mandelBrot Fractal, Knapsack"__ , con el fin de comprobar que cython presenta mayor rendimiento con respecto a python, debido a su combinación de lenguajes, c++, c y python.*
+El siguiente cuaderno tiene como objetivo, analizar los resultados obtenidos de la ejecución de tres ejercicios diferentes __"heat equation, mandelBrot Fractal, Knapsack"__ , con el fin de comprobar que cython presenta mayor rendimiento con respecto a python, debido a su combinación de lenguajes, c++, c y python.
+
+# Introducción
+
+Al momento de desarrollar software es importante tener en consideración el factor del rendimiento, este es de gran importancia en distintos campos como por ejemplo, el desarrollo de videojuegos, trabajo con gran cantidad de datos (big data) o simulación científica,  la cual requiere una gran capacidad de cómputo. El rendimiento como tal no es considerado una medida sino una mezcla de varias. En los casos más comunes se tiene en cuenta el tiempo de respuesta al ejecutar una aplicación.<br>
+Es por esto que es importante tener en cuenta el lenguaje de programación en el cual se desarrolla el software.<br>
+
+# Desarrollo
+Cuando se habla de tiempo de ejecución es necesario tener en cuenta el lenguaje de programación con el que se está trabajando va a determinar su velocidad. De acuerdo con lo mencionado, existen dos clases de lenguajes, interpretados y compilados. Se define como un lenguaje compilado a aquel que lee por completo el programa escrito en un lenguaje de alto nivel y lo traduce a un código de maquina equivalente. El programa en lenguaje de máquina sera el que se ejecutará.<br><br>
+Por otro lado, un lenguaje interpretado, leerá instrucción por instrucción y para cada una de ellas habrá una traducción a código de máquina.<br><br>
+Se pretende realizar una prueba de rendimiento en el lenguaje de programación Python y en Cython, con el fin de verificar la existencia de una posible mejora en la implementación de este programa al desarrollarse en el lenguaje de programación Cython, ya que este combina el lenguaje de c y python.
 
 # Ejercicios
 
@@ -66,10 +76,6 @@ Este proyecto cuenta con tres carpetas, en cada una de ellas, se encuentra un ej
 4. **ejemplo_cy.pyx:** Programa en cython de la solución propuesta para el problema, similar al programa en python, pero con algunas modificaciones para mejorar el rendimiento
 5. **ejemplo_cy.py:** Programa en python de la solución propuesta para el problema.
 6. **Cuaderno en google colab del análisis realizado:** [https://colab.research.google.com/drive/1DdR69P_DUUTEr8wQJor-EqIdbm3rN8Y1?usp=sharing](https://colab.research.google.com/drive/1vhlgFe3izWjVteg0-ps3j3pbQ2LAijRd?usp=sharing)
-
-# Resultados
-
-
 
 # Conclusiones
 
