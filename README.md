@@ -40,11 +40,6 @@ A continuación, se puede observar la forma de una botella, debido a la informac
 
 ![png_to_gif](https://user-images.githubusercontent.com/65740725/202584483-9468495f-59df-4332-b8fd-a3322d3d1006.gif)
 
-Dentro de la carpeta "ejercicio_cocacola", se encuentran tres algoritmos, los cuales son:
-
-*  **Python:** algoritmo original en python.
-*  **Cython:** algoritmo de python sin modificaciones, pero en C con Cython.
-*  **Cython optimizado:** algoritmo con mejoras de rendimiento.
 
 De este ejercicio se obtiene una mejora considerable en el algoritmo de Cython optimizado con respecto a los otros. Además, se observa una pequeña diferencia en tiempo de ejecución entre los algoritmos de Python y Cython sin optimizar, pese a que el programa de Cython sea el mismo de Python solo que convertido a lenguaje C.
 
@@ -94,6 +89,17 @@ Este proyecto cuenta con tres carpetas, en cada una de ellas, se encuentra un ej
 4. **ejemplo_cy.pyx:** Programa en cython de la solución propuesta para el problema, similar al programa en python, pero con algunas modificaciones para mejorar el rendimiento
 5. **ejemplo_cy.py:** Programa en python de la solución propuesta para el problema.
 6. **Cuaderno en google colab del análisis realizado:** [https://colab.research.google.com/drive/1DdR69P_DUUTEr8wQJor-EqIdbm3rN8Y1?usp=sharing](https://colab.research.google.com/drive/1vhlgFe3izWjVteg0-ps3j3pbQ2LAijRd?usp=sharing)
+<br>
+En cuanto a su ejecución simplemente se debe digitar el comando:<br>
+
+```
+make all
+``` 
+<br> ya que este contiene las instrucciones necesarias para automatizar el proceso de compilación. Así mismo, si se desean eliminar los archivos generados por la ejecución, puede digitar el comando: <br>
+
+```
+make clean
+```
 
 # Conclusiones
 
