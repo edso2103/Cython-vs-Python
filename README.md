@@ -72,7 +72,7 @@ De este experimento se evidencia un comportamiento ligeramente extraño, ya que 
 Este proyecto cuenta con tres carpetas, en cada una de ellas, se encuentra un ejercicio diferente con 5 archivos que corresponden a:<br> 
 1. **Makefile:** Automatizar la compilación de los programas <br>
 2. **Setup:** Para construir el programa en cython.<br>
-3. **principal.py:** Programa principal que permite la ejecución de los programas *planet_cy.pyx* y *planet_cy.py*,
+3. **principal.py:** Programa principal que permite la ejecución de los programas *planet_cy.pyx* y *planet_cy.py*, este archivo contiene el método 'repeat' de la biblioteca 'timeit' para realizar varias iteraciones y ofrecer un promedio de los tiempos de ejecución.
 4. **ejemplo_cy.pyx:** Programa en cython de la solución propuesta para el problema, similar al programa en python, pero con algunas modificaciones para mejorar el rendimiento
 5. **ejemplo_cy.py:** Programa en python de la solución propuesta para el problema.
 6. **Cuaderno en google colab del análisis realizado:** [https://colab.research.google.com/drive/1DdR69P_DUUTEr8wQJor-EqIdbm3rN8Y1?usp=sharing](https://colab.research.google.com/drive/1vhlgFe3izWjVteg0-ps3j3pbQ2LAijRd?usp=sharing)
