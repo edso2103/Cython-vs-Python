@@ -15,7 +15,7 @@
 
 # Resumen
 
-El siguiente cuaderno tiene como objetivo analizar los resultados obtenidos de la ejecución de tres ejercicios diferentes __"heat equation, mandelBrot Fractal, Knapsack"__ , con el fin de comprobar que cython presenta mayor rendimiento con respecto a python, debido a su combinación de lenguajes, c++, c y python.
+El siguiente cuaderno tiene como objetivo analizar los resultados obtenidos de la ejecución de tres ejercicios diferentes __"heat equation, mandelBrot Fractal, Knapsack"__ , con el fin de comprobar que cython presenta mayor rendimiento con respecto a python, debido a su combinación de lenguajes, c++, c y python. Si desea visualizar el análisis completo de este proyecto, puede revisar el siguiente [cuaderno](https://colab.research.google.com/drive/1vhlgFe3izWjVteg0-ps3j3pbQ2LAijRd?usp=sharing).
 
 # Introducción
 
